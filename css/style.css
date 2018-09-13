@@ -1,3 +1,26 @@
+.marquee {
+    height:401px;
+    width: 100%;
+    line-height: 150px;
+	  background-color: white;
+	  color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 72px;
+}
+.marquee p {
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite alternate;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -5,7 +28,17 @@
   padding-right: 1em !important; }
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid; }
+ border-left: #444 3px solid; }
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav  .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: red;
+}
+
 
 .carousel-item {
   height: 450px; }
@@ -41,6 +74,8 @@
 }
 
 
+
+
 .social-links {
    
     padding-top:20px;
@@ -73,12 +108,11 @@
 .social-links li a i:hover {
     background:red;
 	
-    
 }
 
 
 .social-header {
 	padding-top:22px;
 }
-	
 
+	
