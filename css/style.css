@@ -1,5 +1,5 @@
 .marquee {
-    height:473px;
+    height:535px;
     width: 100%;
     line-height: 150px;
 	background-color: white;
@@ -11,7 +11,7 @@
 }
 .marquee p {
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 170px;
     padding-left: 100%;
     animation: marquee 10s linear infinite alternate;
 }
@@ -124,3 +124,15 @@
 #spacing {
 	margin-left:5px;
 }
+
+.fix-circle {
+        width: 200px;
+        height: 260px;
+        overflow: hidden;
+      }
+	  
+.img-sizing{
+        height:200px!important;
+ }
+ 
+ 
