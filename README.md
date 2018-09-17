@@ -1,6 +1,6 @@
-Milestone Project 1 - Author : Niall Hobson : Created 23/08/2018
+#Milestone Project 1 - Author : Niall Hobson : Created 23/08/2018
 
-Project Name : Monkees Fan Page
+##Project Name : _**Monkees Fan Page**_
 
 This project is all about providing a nostalgic feel good website for the many Monkees fans that grew up ennjoying
 their saturday morning crazy romps on television and listening to their numerous hits, including many top ten's and
