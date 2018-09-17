@@ -1,6 +1,6 @@
-#Milestone Project 1 - Author : Niall Hobson : Created 23/08/2018
+# Milestone Project 1 - Author : Niall Hobson : Created 23/08/2018
 
-##Project Name : _**Monkees Fan Page**_
+# #Project Name : _**Monkees Fan Page**_
 
 This project is all about providing a nostalgic feel good website for the many Monkees fans that grew up ennjoying
 their saturday morning crazy romps on television and listening to their numerous hits, including many top ten's and
@@ -24,8 +24,9 @@ The ideas are to provide a user with a hub to get a taster of the 'best of The M
 further details of what is happening now with the Monkees, tours, dates gossip, this can be done through the navigation bar
 for internal to the site details and the footer to go to external sources.
 
-Using Mockplus to create a template of how the main page and links would look, the mockplus template is in the project files
-and called 'Mockplus Project' this file can be opened in the mockplus program. The file is the wireframe subdirectory.
+Using **Mockplus** to create a template of how the main page and links would look, the mockplus template is in the project files
+and called 'Mockplus Project' this file can be opened in the mockplus program.  The file is the wireframe subdirectory.
+[link to Mockplus!]([link to Mockplus](https://www.mockplus.com/) .
 
 I established from the template the look and feel of the site, where I wanted to put things and the flow.
 
