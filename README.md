@@ -2,9 +2,9 @@
 
 # Author : Niall Hobson : Created 23/08/2018
 
-# #Project Name : _**Monkees Fan Page**_
+## Project Name : _**Monkees Fan Page**_
 
-This project is all about providing a nostalgic feel good website for the many Monkees fans that grew up ennjoying
+This project is all about providing a nostalgic feel good website for the many Monkees fans that grew up enjoying
 their saturday morning crazy romps on television and listening to their numerous hits, including many top ten's and
 four number ones.
 
@@ -88,7 +88,9 @@ ________________________________________________________________________________
 ### Blog
 
 The Blog page is a simple card class system showing quotes from fans and responses from the extant band members.
-Same header and footer.
+Same header and footer. One thing here was I passed in to the body tag  the id "bootstrap-overrides" this allowed me 
+to style the images associated with the class card-img-top and basically override bootstrap defaults and fix a sizeing
+problem at mobile level.
 
 _________________________________________________________________________________________________________________
 
