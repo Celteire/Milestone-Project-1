@@ -121,7 +121,7 @@
     object-fit: cover;
 }
 
-#spacing {
+.spacing {
 	margin-left:5px;
 }
 
@@ -135,5 +135,5 @@
        height:200px!important;
  }
  
- 
+
  

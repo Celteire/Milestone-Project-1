@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css?v=2">
    
-  <script type="text/javascript">
+  <script>
         function Play()
         {
             var myVideo = document.getElementById("Audio1");
@@ -60,7 +60,7 @@
  <section>
      <div class="container">
 	 
-		<button type="button" onClick="Play()" class="btn btn-danger btn-lg" >Play/Pause</i></button>
+		<button type="button" onClick="Play()" class="btn btn-danger btn-lg" >Play/Pause</button>
 		<audio src="img/HeyHey.mp3" id="Audio1"></audio>
 		  						
 		<div class="marquee">
@@ -79,14 +79,14 @@
         <div class="row">
   	  
           <div class="col">
-            <h1>Signup For Our Newsletter</h1>
+            <h2>Signup For Our Newsletter</h2>
             <p>For information on upcoming tour dates, gossip and the general going's on</p>
             <form class="form-inline justify-content-center">
               <label class="sr-only" for="name">Name</label>
-              <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
+              <input type="text" id="name" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
   
               <label class="sr-only" for="email">Email</label>
-              <input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
+              <input type="email" id="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
               <button class="btn btn-danger" type="submit">Submit</button>
             </form>
           </div>
