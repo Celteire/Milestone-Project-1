@@ -157,11 +157,13 @@ syntax or any notified warnings that were reported. [link to html validator!](ht
 
 _**index.html**_
 
-**Error:** Error: Duplicate ID control-btn. 
+**Error:** 
+
+Error: Duplicate ID control-btn. 
 
 In the carousel play/pause button area 4 occurences
 
-Error : <button id="control-btn" onclick="Player1('img/DaydreamBeliever.mp3')" class="btn btn-danger btn-lg" >
+Error : button id="control-btn" onclick="Player1('img/DaydreamBeliever.mp3')" class="btn btn-danger btn-lg" 
 Fix   : Not fixed as when I was constructing my audio control I was doing a lot of trial and error and this is
 the way I found to get it to work as I gather the 4 control-btn id with queryselector and match off the control-btn
 selection against my array of song titles. At this time the code works and I will have to find out how to do it
@@ -169,7 +171,7 @@ without resorting to duplicate id's.
 
 **Error:** Duplicate ID player.
 
-Error :  <audio id="player" src="img/ImABeliever.mp3" >
+Error :  audio id="player" src="img/ImABeliever.mp3" 
 Fix   : Not fixed same thing applies here as above using the same id to get it to work. Need to spend more time
 trialling and erroring on this, however it works quite well.
 
@@ -198,8 +200,8 @@ in my other html files, I won't repeat this explanation each time.
 
 **Error:** The value of the for attribute of the label element must be the ID of a non-hidden form control.
 
-Error :  <label class="sr-only" for="name">Name
-and also <label class="sr-only" for="email">Email
+Error :  label class="sr-only" for="name">Name
+and also label class="sr-only" for="email">Email
 Fix   : put id="name" and id="email" in their respective input fields.
 
 These fixes were in the footer newsletter section, so I had to change all html files the same way. As the
@@ -209,14 +211,12 @@ _**about.html**_
 
 Warning: The type attribute is unnecessary for JavaScript resources.
 
-<script type="text/javascript">
-
+Error : script type="text/javascript"
 Fix   : Removed and tested that it works
 
 Error: Stray end tag i.
 
-Play/Pause</i>
-
+Error : Play/Pause/i
 Fix   : Removed stray tag was just showing as text did not have any effect before or after removal.
 
 _**blog.html**_
@@ -224,13 +224,13 @@ _**blog.html**_
 This error occurred 6 times in the card sections.
 
 **Error:** Duplicate ID spacing.
-Error :  <small id="spacing">
+Error :  small id="spacing"
 Fix   : changed #spacing to .spacing in style.css and changed all occurences to class="spacing"
 
 Warning: Consider using the h1 element as a top-level heading only
 
-Error : <h1>Signup
-Fix   : Changed all occurences to <h2>
+Error : h1 Signup
+Fix   : Changed all occurences to h2
 
 _**services.html**_
 
@@ -239,25 +239,25 @@ but it is bootstrap and it should be headingone to headingsix
 
 Error: Duplicate ID headingOne
 
-Error : <div class="card-header" id="headingOne"
+Error : div class="card-header" id="headingOne
 Fix   : Changed to different heading number headingone to headingsix as there is six questions.
 
 Warning: Consider using the h1 element as a top-level heading only
 
-Error : <h1 class="text-center">Frequently Asked Questions_
-Fix   : Changed to <h2>
+Error : h1 class="text-center">Frequently Asked Questions
+Fix   : Changed to h>
 
 Error: Duplicate ID accordion.
 
-Error : <div id="accordion">
+Error : div id="accordion"
 Fix   : changed id to class and it worked fine.
 
 _**Contact.html**_
 
 Warning: Consider using the h1 element as a top-level heading only
  
-Error : <h1>The Band
-Fix   : Changed to <h2>
+Error : h1 The Band
+Fix   : Changed to h2
 
 That is the complete error list and fixes for all the html files in the project. The only error I did not
 fix at this time was the duplicate control-btn. Which I am still looking at. Otherwise the section warning
@@ -271,8 +271,8 @@ I exported my CSS style sheet to the W3C CSS validation service [link to CSS val
 I also tested the mobile responsiveness of my site with [link to mobile validator!](https://search.google.com/test/mobile-friendly)
 The result came back as
 
-### Page is mobile friendly
-### This page is easy to use on a mobile device
+**Page is mobile friendly**
+**This page is easy to use on a mobile device**
 
 With regard to automated testing this is something that I will take on with more experience in the future. For now I did the following
 manual testing.
